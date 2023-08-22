@@ -29,6 +29,7 @@
 
 
 **Vet Clinic** is a posgresql database
+![image](https://github.com/kit0-0/vet-clinic/assets/111427307/11fc7f6d-46a8-4891-9a38-d179714f7699)
 
 ## 🛠 Built With <a name="built-with"></a>
 
