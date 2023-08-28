@@ -70,6 +70,10 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 - GitHub: [@kit0-0](https://github.com/kit0-0)
 
+👤 Meryem
+
+- GitHub: [@kit0-0](https://github.com/meryemsanem)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
