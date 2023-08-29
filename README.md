@@ -1,64 +1,68 @@
-
 <div align="center">
 
-  <h1><b>Vet Clinic</b></h1>
+  <h1><b>Clinic Database</b></h1>
 
 </div>
-
 
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 Vet Clinic ](#-vet-clinic-)
-  - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [Getting Started](#getting-started)
-  - [👥 Author ](#-author-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+  - [📗 Table of Contents](#-table-of-contents)
+  - [📖 Clinic Database](#-clinic-database-)
+  - [Key Features](#-key-features)
+  - [🛠 Schema](#-schema)
+  - [🔧 Installation](#-installation)
+  - [🚀 Usage](#-usage)
+  - [👥 Authors](#-authors)
+  - [🔍 Future Enhancements](#-future-enhancements)
+  - [🤝 Contributing](#-contributing)
+  - [⭐️ Show Your Support](#️-show-your-support)
+  - [🙏 Acknowledgments](#-acknowledgments)
+  - [📝 License](#-license)
+
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Vet Clinic <a name="about-project"></a>
+# 📖 Clinic Database <a name="about-project"></a>
+
+This project involves creating a PostgreSQL database for a clinic based on a given schema. It implements tables for patients, treatments, medical histories, invoices, invoice items, and their relationships.
 
 
-**Vet Clinic** is a posgresql database
-
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
+  <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- Database
+- **Database Creation**
+- **Data Insertion**
+- **SQL Queries**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🛠 Schema <a name="schema"></a>
 
+The database schema includes the following tables:
 
-<!-- GETTING STARTED -->
+- patients
+- treatments
+- medical_histories
+- invoices
+- invoice_items
+- medical_history_treatments
 
-## Getting Started
+Each table is designed to capture specific information about patients, medical histories, treatments, and invoices, with appropriate foreign key relationships.
 
-This repository includes files with plain SQL that can be used to recreate a database:
+<!-- INSTALLATION -->
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+## 🔧 Installation
+
+1. Create a new PostgreSQL database named "clinic".
+2. Execute the SQL code provided above in your PostgreSQL environment to create the required tables and relationships.
+
+<!-- USAGE -->
+
+## 🚀 Usage
+
+Once the database is created and the SQL scripts have been executed, you can interact with the clinic database by running SQL queries to retrieve, insert, update, and delete data.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,14 +78,13 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 - GitHub: [@kit0-0](https://github.com/meryemsanem)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+<!-- FUTURE ENHANCEMENTS -->
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔍 Future Enhancements <a name="future-enhancements"></a>
 
-- **Add Account System**
+- **Implement an Account System**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,19 +98,19 @@ Feel free to check the [issues page](https://github.com/kit0-0/vet-clinic/issues
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
+<!-- SHOW YOUR SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+## ⭐️ Show Your Support <a name="show-your-support"></a>
 
-If you like this project you can share this project to your friend
+If you find this project helpful, consider giving it a star and sharing it with others.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
+<!-- ACKNOWLEDGMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a name="acknowledgments"></a>
 
-I would like to thank microverse for this project
+Special thanks to [Any Acknowledgments, if applicable].
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
