@@ -41,6 +41,18 @@ CREATE TABLE medical_history_treatments (
   FOREIGN KEY (treatment_id) REFERENCES treatments (id)
 );
 
+CREATE TABLE patients (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(255),
+  date_of_birth DATE
+);
+
+CREATE TABLE treatments (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(255),
+  type VARCHAR(255)
+);
+
 -- Create indexes on foreign key columns
 CREATE INDEX idx_mh_treat_medhist_id ON medical_history_treatments (medical_history_id);
 CREATE INDEX idx_mh_treat_treat_id ON medical_history_treatments (treatment_id);
