@@ -8,8 +8,9 @@
 
 # 📗 Table of Contents
 
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 Clinic Database](#-clinic-database-)
+  - [📗 Table of Contents](#-table-of-contents)
+  - [📖 Clinic Database](#-clinic-database-)
+  - [Key Features](#-key-features)
   - [🛠 Schema](#-schema)
   - [🔧 Installation](#-installation)
   - [🚀 Usage](#-usage)
@@ -20,15 +21,27 @@
   - [🙏 Acknowledgments](#-acknowledgments)
   - [📝 License](#-license)
 
+
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Clinic Database <a name="about-project"></a>
 
 This project involves creating a PostgreSQL database for a clinic based on a given schema. It implements tables for patients, treatments, medical histories, invoices, invoice items, and their relationships.
 
+
+  <!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Database Creation**
+- **Data Insertion**
+- **SQL Queries**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 🛠 Schema <a name="schema"></a>
 
 The database schema includes the following tables:
+
 - patients
 - treatments
 - medical_histories
@@ -55,7 +68,6 @@ Once the database is created and the SQL scripts have been executed, you can int
 
 <!-- AUTHORS -->
 
-
 ## 👥 Author <a name="author"></a>
 
 👤 Kiko
@@ -65,8 +77,6 @@ Once the database is created and the SQL scripts have been executed, you can int
 👤 Meryem
 
 - GitHub: [@kit0-0](https://github.com/meryemsanem)
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
